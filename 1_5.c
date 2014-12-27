@@ -360,10 +360,6 @@ void dijkstra(adjmatrix *g)		//输出最短距离路径
 			g1.arcs[i+1][j]=g1.arcs[i][j];
 	g1.vexnum=g->vexnum;
 	g1.arcnum=g->arcnum;
-	//printf("输出地点:\n");
-	//for(i=1;i<=g1.vexnum;i++)		//打印名字
-	//	printf("%s ",g1.vex[i].name);
-	//printf("\n");
 	for(i=1;i<=g1.vexnum;i++)
 	{
 		for(j=1;j<=g1.vexnum;j++)
