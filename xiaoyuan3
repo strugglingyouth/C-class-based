@@ -10,5 +10,14 @@ fea
 xiugai
 fenzhi
 bug
+<<<<<<< HEAD
 dev
 devdev
+=======
+<<<<<<< Updated upstream
+dev11111
+=======
+dev
+dev2
+>>>>>>> Stashed changes
+>>>>>>> dev2
