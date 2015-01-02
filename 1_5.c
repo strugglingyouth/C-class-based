@@ -303,6 +303,7 @@ void delete_address(adjmatrix *g)	//删除路线
 		if(m==0&&n==0)
 			printf("删除失败！ %s %s都未找到!\n",s1,s2);
 	}
+	
 }
 void print_all_router(adjmatrix *g)	//输出所有路径
 {
